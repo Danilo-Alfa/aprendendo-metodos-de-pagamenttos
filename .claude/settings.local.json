@@ -3,7 +3,13 @@
     "allow": [
       "Bash(npx create-next-app@latest:*)",
       "Bash(rm:*)",
-      "Bash(npm install)"
+      "Bash(npm install)",
+      "WebFetch(domain:docs.pagar.me)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:pagar.me)",
+      "WebFetch(domain:abacatepay.com)",
+      "WebFetch(domain:docs.abacatepay.com)",
+      "Bash(npm run build:*)"
     ]
   }
 }

@@ -2,7 +2,7 @@ export type PaymentMethod = 'credit_card' | 'boleto' | 'pix'
 
 export type PaymentStatus = 'pending' | 'processing' | 'paid' | 'failed' | 'refunded' | 'cancelled'
 
-export type PaymentProvider = 'pagarme' | 'stripe' | 'mercadopago'
+export type PaymentProvider = 'abacatepay' | 'pagarme' | 'pagseguro' | 'stripe' | 'mercadopago'
 
 export interface Customer {
   name: string
